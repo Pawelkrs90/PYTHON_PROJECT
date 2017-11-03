@@ -1,0 +1,30 @@
+Plik settings.py zawiera konfigurację naszej strony.
+Plik urls.py zawiera wzorce używane przez urlresolver'a.
+
+0 instalcja python3 i ustawienie jako glownego
+
+1. Stwórzmy nowe środowisko wirtualne o nazwie myvenv. Polecenie ma następujący format:
+	python3 -m venv myvenv
+
+2. source myvenv/bin/activate   -- to za kazdym raze mtrzeba robic - jesli nowa kosola
+
+3. pip install Django 
+
+
+
+python manage.py migrate - tworze baze
+python manage.py runserver  - odpalam server
+
+http://127.0.0.1:8000/  link do stronki
+
+
+po dodaniu czegos do models
+
+python manage.py makemigrations projectName
+
+
+
+python manage.py createsuperuser   -- tworzenie userA
+
+
+
